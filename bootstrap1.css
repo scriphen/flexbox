@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    height: 550px;
+}
+#home h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#home img{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+#home .welcome-text{
+    height: 150px;
+}
+.progressnew1{
+    width:35%;
+}
+.progressnew2{
+    width:70%;
+}
+.progressnew3{
+    width:55%;
+}
+.subscription{
+    background-color: #FFFD95;
+} 
+.portfolio-image img{
+    height:210px;
+}
+#Contact img{
+    width:100%;
+    height: 580px;
+}
+#Contact textarea{
+    height: 90px;
+}
+@media only screen and (max-width:992px){
+    .contact-detail{
+        width:100% !important;
+    }
+    #Team img{
+        width: 100% !important;
+    }
+    .subscription{
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width:768px){
+    #home{
+        height: 400px;
+    }
+    .home-image img{
+        width: 100%;
+        height: 400px;
+    }
+    .subscription-content{
+        display: block !important;
+    }
+    .subscription{
+        width:100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    #Team img{
+        width:50% !important;
+    }
+    .contact-detail{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width:576px){
+
+    #home{
+        height:300px !important;
+    }
+    .home-image img{
+        width:100% !important;
+        height: 300px !important;
+    }
+    .home-image .welcome-text{
+
+        width: 100%;
+        color: #fff;
+    }
+    #about{
+        margin-top: 25px !important;
+    }
+    .subscription-content{
+        display: block !important;
+    }
+    .subscription{
+        width:100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    #Team img{
+        width:60% !important;
+    }
+    #Portfolio{
+        width:100%;
+    }
+    #Portfolio button{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #Portfolio button:hover{
+        background-color:orange;
+        color: #fff;
+    }
+    .row1 .image-section,.row2 .image-section,.row3 .image-section{
+        margin-bottom: 8px;
+    }
+    #Contact img{
+        width:100%;
+        height: 510px !important;
+    }
+    .contact-text{
+        margin-top: 0 !important;
+    }
+    .card-text{
+        width: 100% !important;
+    }
+    .contact-text button{
+        margin-top: 0 !important;
+    }
+    .contact-detail{
+        width: 100% !important;
+    }
+    .contact-detail a{
+        padding: 5px;
+    }
+    .position-value{
+        left: 0;
+    }
+    .contact-text textarea{
+        margin-bottom: 5px !important;
+        height: 70px !important;
+    }
+}
+
+
